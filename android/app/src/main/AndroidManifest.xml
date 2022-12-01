@@ -4,6 +4,8 @@
         android:label="volunteer_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyARMd4l8V_spdiUN3UGg5zV-IgtuzqzEro"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

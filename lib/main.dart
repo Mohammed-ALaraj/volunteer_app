@@ -20,6 +20,8 @@ import 'package:volunteer_app/view/screen/auth/virification_code_screen.dart';
 import 'package:volunteer_app/view/screen/bottom/bottom_navigation_screen.dart';
 import 'package:volunteer_app/view/screen/core/launch_screen.dart';
 
+import 'map/mapScreen.dart';
+
 SharedPreferences? sharedpref;
 
 void main () async{

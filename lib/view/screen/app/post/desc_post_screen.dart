@@ -117,6 +117,7 @@ class _PostDescriptionScreenState extends State<PostDescriptionScreen> with Sing
             Expanded(
               child: TabBarView(
                   controller: _tabController,
+                  physics: NeverScrollableScrollPhysics(),
                   children: [
                     contact_us_screen(),
                     location(),
